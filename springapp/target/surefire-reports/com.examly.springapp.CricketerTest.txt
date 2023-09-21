@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.examly.springapp.CricketerTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 6.462 s <<< FAILURE! - in com.examly.springapp.CricketerTest
+BackEnd_GetallPlayerWithTeam  Time elapsed: 0.376 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.util.NoSuchElementException: Player is empty
+	at com.examly.springapp.CricketerTest.BackEnd_GetallPlayerWithTeam(CricketerTest.java:181)
+Caused by: java.util.NoSuchElementException: Player is empty
+	at com.examly.springapp.CricketerTest.BackEnd_GetallPlayerWithTeam(CricketerTest.java:181)
+
+BackEnd_GetallTeam  Time elapsed: 0.013 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.util.NoSuchElementException: Team is empty
+	at com.examly.springapp.CricketerTest.BackEnd_GetallTeam(CricketerTest.java:163)
+Caused by: java.util.NoSuchElementException: Team is empty
+	at com.examly.springapp.CricketerTest.BackEnd_GetallTeam(CricketerTest.java:163)
+
